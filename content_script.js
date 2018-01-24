@@ -240,7 +240,7 @@ function getHeadersDetail() {
 	});
 
 	if (!headersFound) {
-		output += "<span class='error-value'>No header has been found.</span><br/>";
+		output += "<span class='error-value'>Заголовок не найден.</span><br/>";
 	}
 	output += "</div>";
 
@@ -401,7 +401,7 @@ function initBasicTab() {
 	// TITLE
 	content = document.title;
 	msgLength = getLengthOf(content);
-	msgLengthError = "It is a 30-65 characters page title"
+	msgLengthError = "Это название страницы 30-65 символов"
 	if (msgLength == '0') {
 		content = "<span class='error-message'>Нету Title!</span>";
 	} else {
@@ -1165,7 +1165,7 @@ function initImagesTab() {
 
 
 	toCompleteOutput = "";
-	goodOutput = "";
+	goodOutput = "";It is a 30-65 characters page title
 
 
 	$('img').tsort({
@@ -1289,7 +1289,7 @@ function initImagesTab() {
 
 	// ---------------------------------
 	// PageSpeed	
-	tempOutput += "<span class='intro-tab'>Analyze and optimize your images with</span><br/>";
+	tempOutput += "<span class='intro-tab'>Проанализируйте и оптимизируйте свои изображения с помощью</span><br/>";
 
 
 	link = "http://developers.google.com/speed/pagespeed/insights/?url=" + encodeURIComponent(window.location.href);

@@ -2,7 +2,7 @@
 // -----------------------------------------------------------
 // Google
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-87747689-1']);
+  _gaq.push(['_setAccount', 'UA-52054709-1']);
   _gaq.push(['_trackPageview']);
 (function() {
   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;

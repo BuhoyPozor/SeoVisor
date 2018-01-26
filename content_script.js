@@ -240,7 +240,7 @@ function getHeadersDetail() {
 	});
 
 	if (!headersFound) {
-		output += "<span class='error-value'>Заголовок не найден.</span><br/>";
+		output += "<span class='error-value'>No header has been found.</span><br/>";
 	}
 	output += "</div>";
 
@@ -401,7 +401,7 @@ function initBasicTab() {
 	// TITLE
 	content = document.title;
 	msgLength = getLengthOf(content);
-	msgLengthError = "Это название страницы 30-65 символов"
+	msgLengthError = "It is a 30-65 characters page title"
 	if (msgLength == '0') {
 		content = "<span class='error-message'>Нету Title!</span>";
 	} else {
@@ -1165,7 +1165,7 @@ function initImagesTab() {
 
 
 	toCompleteOutput = "";
-	goodOutput = "";It is a 30-65 characters page title
+	goodOutput = "";
 
 
 	$('img').tsort({
@@ -1289,7 +1289,7 @@ function initImagesTab() {
 
 	// ---------------------------------
 	// PageSpeed	
-	tempOutput += "<span class='intro-tab'>Проанализируйте и оптимизируйте свои изображения с помощью</span><br/>";
+	tempOutput += "<span class='intro-tab'>Analyze and optimize your images with</span><br/>";
 
 
 	link = "http://developers.google.com/speed/pagespeed/insights/?url=" + encodeURIComponent(window.location.href);
@@ -1828,13 +1828,13 @@ function getSocialInfoSchemaOrg(titleTable, theId) {
 
 function initToolsTabHtml() {
 
-	output = "<div class='content-util text-left'>Use <strong>CTRL + CLICK</strong> to open links <strong>in background</strong>.<br/><br/></div>";
+	output = "<div class='content-util text-left'>Используй <b>CTRL + CLICK</b> что бы открыть <b>в новой вкладке</b>.<br/><br/></div>";
 
 	url = $.url(window.location.href);
 
 	// =======================
 
-	mainText = "Проверка WHOIS";
+	mainText = "Проверка <b>WHOIS</b>";
 
 	link = "http://2whois.ru/?t=whois&data=" + encodeURIComponent(window.location.href);
 	linkName = "Mobile-Friendly Test";
@@ -1844,7 +1844,7 @@ function initToolsTabHtml() {
 	output += getToolRowWithArrow(mainText, link, linkName, linkDesc, linkImage);
 	// =======================
 
-	mainText = "Проверка DNS";
+	mainText = "Проверка <b>DNS</b>";
 
 	link = "http://2whois.ru/?t=dns&data=" + encodeURIComponent(window.location.href);
 	linkName = "Mobile-Friendly Test";
@@ -1855,7 +1855,7 @@ function initToolsTabHtml() {
 
 	// =======================
 
-	mainText = "Is your page is <strong>Mobile Friendly ?</strong>";
+	mainText = "Проверка на адаптивность для мобильных устройств <strong>GOOGLE</strong>";
 
 	link = "https://search.google.com/test/mobile-friendly?referer=seo-extension.com&url=" + encodeURIComponent(window.location.href);
 	linkName = "Mobile-Friendly Test";
@@ -1866,7 +1866,7 @@ function initToolsTabHtml() {
 
 	// =======================	
 
-	mainText = "Analyze <strong>Performance</strong> with <strong>GTmetrix</strong>";
+	mainText = "Проверка скрорости сайта <b>GTmetrix</b>";
 	link = "http://gtmetrix.com/?url=" + window.location.href;
 	linkName = "GTmetrix";
 	linkDesc = "Analyse the current page with GTmetrix.";
@@ -1876,7 +1876,7 @@ function initToolsTabHtml() {
 
 	// =======================
 
-	mainText = "Analyze <strong>Performance</strong> with <strong>PageSpeed</strong> (Google tool)";
+	mainText = "Проверка оптимизированости страницы <b>Goofle PageSpeed</b>";
 	link = "http://developers.google.com/speed/pagespeed/insights/?url=" + encodeURIComponent(window.location.href);
 	linkName = "PageSpeed";
 	linkDesc = "Analyse the current page with PageSpeed.";
@@ -1887,7 +1887,7 @@ function initToolsTabHtml() {
 	// =======================
 
 
-	mainText = "Validate <strong>HTML, XHTML,...</strong>";
+	mainText = "Валидатор <b>HTML, XHTML,...</b>";
 	link = "http://validator.w3.org/check?uri=" + window.location.href;
 	linkName = "W3.org";
 	linkDesc = "Markup Validation Service. Check the markup (HTML, XHTML,...) of a web page.";
@@ -1897,7 +1897,7 @@ function initToolsTabHtml() {
 
 	// =======================
 
-	mainText = "Validate <strong>CSS</strong>";
+	mainText = "Валидатор <b>CSS</b>";
 	link = "http://jigsaw.w3.org/css-validator/validator?uri=" + window.location.href;
 	linkName = "W3.org - Validate CSS";
 	linkDesc = "This is the W3C CSS Validation Service.";
@@ -1908,7 +1908,7 @@ function initToolsTabHtml() {
 	//	=======================
 
 
-	mainText = "Check <strong>Open Graph</strong> properties with <strong>Facebook</strong> Debugger";
+	mainText = "Проверка <b>Open Graph</b> тегов <b>Facebook</b> Debugger";
 	link = "https://developers.facebook.com/tools/debug/og/object?q=" + encodeURIComponent(window.location.href);
 	linkName = "Facebook debugger";
 	linkDesc = "Open Graph Object Debugger";
@@ -1943,7 +1943,7 @@ function initToolsTabHtml() {
 
 	// =======================
 
-	mainText = "Check <strong>Microdata, Microformats</strong> and <strong>RDFa</strong>";
+	mainText = "Проверка  <b>микроразметки</b> и <b>RDFa</b>";
 	// "http://www.google.com/webmasters/tools/richsnippets?q="+ window.location.href;
 	// link = "https://developers.google.com/structured-data/testing-tool/";
 	link = "https://search.google.com/structured-data/testing-tool/u/0/#url=" + encodeURIComponent(window.location.href)

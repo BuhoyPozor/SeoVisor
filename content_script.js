@@ -266,7 +266,7 @@ function getHeadersDetail() {
 	output += "    <th>H4</th>";
 	output += "    <th>H5</th>";
 	output += "    <th>H6</th>";
-	output += "    <th>SNRONG</th>";
+	output += "    <th>STRONG</th>";
 	output += "    <th>B <img class='hpr' src='img/help-icon-i.png' id='h-headers' /> </th>";
 
 	output += "  </tr>";

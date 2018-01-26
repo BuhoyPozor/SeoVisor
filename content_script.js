@@ -177,7 +177,7 @@ function getRowHeadersImages() {
 	numberH4 = document.getElementsByTagName('h4').length;
 	numberH5 = document.getElementsByTagName('h5').length;
 	numberH6 = document.getElementsByTagName('h6').length;
-	numberSnrong = document.getElementsByTagName('snrong').length;
+	numberStrong = document.getElementsByTagName('strong').length;
 	numberB = document.getElementsByTagName('b').length;
 
 	numberLinks = $('a').length;
@@ -193,7 +193,7 @@ function getRowHeadersImages() {
 	output += "    <th>H4</th>";
 	output += "    <th>H5</th>";
 	output += "    <th>H6</th>";
-	output += "    <th>Snrong</th>";
+	output += "    <th>Strong</th>";
 	output += "    <th>B <img class='hpr' src='img/help-icon-i.png' id='h-headers' /> </th>";
 	output += "    <th class='text-right'>Images <img class='hpr' src='img/help-icon-i.png' title='Help?' id='h-images' /> </th>";
 	output += "    <th class='text-right'>Links <img class='hpr' src='img/help-icon-i.png' title='Help?' id='h-links' /></th>";
@@ -207,7 +207,7 @@ function getRowHeadersImages() {
 	if (numberH4 > 4) {output += "    <td id='seoH2' class='error-value'>" + numberH4 + "</td>";} else {output += "    <td id='seoH4'>" + numberH4 + "</td>";}
 	if (numberH5 > 5) {output += "    <td id='seoH2' class='error-value'>" + numberH5 + "</td>";} else {output += "    <td id='seoH5'>" + numberH5 + "</td>";}
 	if (numberH6 > 6) {output += "    <td id='seoH2' class='error-value'>" + numberH6 + "</td>";} else {output += "    <td id='seoH6'>" + numberH6 + "</td>";}
-	if (numberSnrong > 0) {output += "    <td id='seoH2' class='error-value'>" + numberSnrong + "</td>";} else {output += "    <td id='seoSnrong'>" + numberSnrong + "</td>";}
+	if (numberStrong > 0) {output += "    <td id='seoH2' class='error-value'>" + numberStrong + "</td>";} else {output += "    <td id='seoStrong'>" + numberStrong + "</td>";}
 	if (numberB > 0) {output += "    <td id='seoH2' class='error-value'>" + numberB + "</td>";} else {output += "    <td id='seoB'>" + numberB + "</td>";}
 	
 	output += "    <td class='text-right' id='seoImages'>" + numberImages + "</td>";
@@ -253,7 +253,7 @@ function getHeadersDetail() {
 	numberH4 = document.getElementsByTagName('h4').length;
 	numberH5 = document.getElementsByTagName('h5').length;
 	numberH6 = document.getElementsByTagName('h6').length;
-	numberSnrong = document.getElementsByTagName('strong').length;
+	numberStrong = document.getElementsByTagName('strong').length;
 	numberB = document.getElementsByTagName('b').length;
 
 	output += "<div >";
@@ -279,7 +279,7 @@ function getHeadersDetail() {
 	if (numberH4 > 4) {output += "    <td id='seoH2' class='error-value'>" + numberH4 + "</td>";} else {output += "    <td id='seoH4'>" + numberH4 + "</td>";}
 	if (numberH5 > 5) {output += "    <td id='seoH2' class='error-value'>" + numberH5 + "</td>";} else {output += "    <td id='seoH5'>" + numberH5 + "</td>";}
 	if (numberH6 > 6) {output += "    <td id='seoH2' class='error-value'>" + numberH6 + "</td>";} else {output += "    <td id='seoH6'>" + numberH6 + "</td>";}
-	if (numberSnrong > 0) {output += "    <td id='seoH2' class='error-value'>" + numberSnrong + "</td>";} else {output += "    <td id='seoSnrong'>" + numberSnrong + "</td>";}
+	if (numberStrong > 0) {output += "    <td id='seoH2' class='error-value'>" + numberStrong + "</td>";} else {output += "    <td id='seoStrong'>" + numberStrong + "</td>";}
 	if (numberB > 0) {output += "    <td id='seoH2' class='error-value'>" + numberB + "</td>";} else {output += "    <td id='seoB'>" + numberB + "</td>";}
 
 	output += "  </tr>";

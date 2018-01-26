@@ -7,7 +7,7 @@
       "default_popup": "popup.html"
    },
    "content_security_policy": "script-src 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
-   "description": "SeoVisor - подробная seo информация про страницу",
+   "description": "SeoVisor - РїРѕРґСЂРѕР±РЅР°СЏ seo РёРЅС„РѕСЂРјР°С†РёСЏ РїСЂРѕ СЃС‚СЂР°РЅРёС†Сѓ",
    "icons": {
       "128": "img/icon128.png",
       "16": "img/icon16.png",

@@ -18,9 +18,5 @@
    "name": "SeoVisor",
    "permissions": [ "activeTab" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-<<<<<<< HEAD
    "version": "1.03"
-=======
-   "version": "1.00"
->>>>>>> parent of cd40fab... Обновление 1.01
 }

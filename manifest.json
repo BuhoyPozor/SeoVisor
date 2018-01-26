@@ -18,5 +18,5 @@
    "name": "SeoVisor",
    "permissions": [ "activeTab" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.03"
+   "version": "1.04"
 }
